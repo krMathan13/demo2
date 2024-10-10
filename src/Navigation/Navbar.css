@@ -1,0 +1,28 @@
+.nav {
+    background-color: black;
+    color: aqua;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+li {
+    list-style: none;
+}
+
+
+ul{
+    display: flex;
+    justify-content: right;
+    padding-right: 10%;
+    gap: 25px;
+
+}
+
+.tit{
+    color: aqua;
+    text-decoration: dashed;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}

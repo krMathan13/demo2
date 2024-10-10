@@ -1,0 +1,55 @@
+/* Home.css */
+
+body {
+  background-image: url('sri.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Ensures the body takes full height of the viewport */
+    margin: 0;
+  }
+  
+  .title {
+    text-align: center;
+    color: black; /* Darker text color */
+    font-size: 2.5em; /* Larger font size */
+  }
+  
+  .subtitle {
+    text-align: center;
+    color:black; /* Slightly lighter text color */
+    font-size: 1.5em; /* Adjusted font size */
+  }
+  
+  .description {
+    line-height: 1.6; /* Improved line height for readability */
+    color:black; /* Medium gray text color */
+  }
+  
+  .showcase-image {
+    display: block; /* Ensure image is block level */
+    margin: auto; /* Center the image */
+    border-radius: 8px; /* Rounded corners on image */
+  }
+  
+  hr {
+    border: none; /* Remove default border style */
+    height: 2px; /* Height of the line */
+    background-color: #ccc; /* Color of the line */
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 600px) {
+      .home-container {
+          padding: 10px; /* Reduce padding on smaller screens */
+      }
+      
+      .title {
+          font-size: 2em; /* Adjust title size for smaller screens */
+      }
+  
+      .subtitle {
+          font-size: 1.2em; /* Adjust subtitle size for smaller screens */
+      }
+  }
+ 

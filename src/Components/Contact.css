@@ -1,0 +1,53 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Dark text color */
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+}
+
+.main-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.animated-text {
+    font-size: 2em;
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 2s forwards; /* Fade in animation */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Start from invisible */
+        transform: translateY(-20px); /* Move up slightly */
+    }
+    to {
+        opacity: 1; /* End visible */
+        transform: translateY(0); /* Move back to original position */
+    }
+}
+
+.animated-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #008CBA; /* Blue background */
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+.animated-button:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    background-color: #005f75; /* Darker blue on hover */
+}
